@@ -19,6 +19,7 @@ class SnapshotArray:
 
         return self.s
 
+    # Should be a binary search
     def get(self, index: int, snap_id: int) -> int:
         prev = self.h[index][0][0]
         for history, snap in self.h[index][1:]:
