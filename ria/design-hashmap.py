@@ -1,3 +1,8 @@
+# https://leetcode.com/problems/design-hashmap/
+# 2247ms
+# 16.54MB
+
+
 class MyHashMap(object):
 
     def __init__(self):
@@ -54,5 +59,3 @@ class MyHashMap(object):
 # param_2 = obj.get(key)
 # obj.remove(key)
 
-# 2247ms
-# 16.54MB
