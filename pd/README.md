@@ -1,6 +1,11 @@
 # Dave's Git Workflow
 
 
+__0. If there are unstaged changes, stage and commit those changes before pulling and rebasing.__
+```bash
+git add .
+git commit -m "oops I left a mess"
+```
 __1. Fetch the latest changes from `main` in the `origin` remote and then rebase your current branch onto the latest `main`.__
 ```bash
 git pull --rebase origin main
